@@ -6,12 +6,14 @@ public class test2 {
 		s1.name = "wahaha";
 		s1.age = 18;
 		Computer c = new Computer();
-		c.brand = "´÷¶û";
+		c.brand = "è”æƒ³";
 		c.cpuSpeed = 100;
 
-		s1.computer = c;  //°ÑcµÄÖµ¸øs1µÄcomputerÊôĞÔ,Í¨¹ıcomputerÒıÓÃµØÖ·ÕÒµ½brandµÄ³õÊ¼Öµ
-		c.brand = "ÁªÏë";
+		s1.computer = c;  //æŠŠcçš„å€¼ç»™s1çš„computerå±æ€§,é€šè¿‡computerå¼•ç”¨åœ°å€æ‰¾åˆ°brandçš„åˆå§‹å€¼Öµ
+		c.brand = "æˆ´å°”";
 		System.out.println(s1.computer.brand);
+		String str1 = "æˆ´å°”";
+		System.out.println(str1==c.brand);
 
 	}
 

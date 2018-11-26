@@ -1,21 +1,21 @@
 package cn.zhuanzhuan.oop;
 
 public class Student {
-	// ¾²Ì¬µÄÊı¾İ ÊôĞÔ
+	// é™æ€æ•°æ®
 	String name;
-	int id;
+	int id; // å­¦å·
 	int age;
-	String gender; // ĞÔ±ğ
-	int weight; // ÖØÁ¿
-	Computer computer; //±íÊ¾Ò»Ì¨µçÄÔ¶àÊ±¿ÉÒÔÓÃÊı×é
-	// ¶¯Ì¬µÄĞĞÎª ·½·¨
+	String gender;
+	int weight;
+	Computer computer;
 
+	// åŠ¨æ€æ–¹æ³•
 	public void study() {
-		System.out.println(name + "ÔÚÑ§Ï°");
+		System.out.println(name + "åœ¨å­¦ä¹ ");
 	}
 
 	public void sayhello(String sname) {
-		System.out.println(name + "Ïò" + sname + "Ëµ : ÄãºÃ !");
+		System.out.println(name + "å‘" + sname + "è¯´ :ä½ å¥½ !");
 	}
 
 }
