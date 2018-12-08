@@ -79,6 +79,44 @@ public class TestString {
 		}
 		System.out.println(gh);
 
+		System.out.println("-----------------------------------");
+		// 获取字符串长度
+		String str00 = new String("478bhjd56");
+		int strlength = str00.length();
+		System.out.println(strlength);
+		System.out.println("-----------------------------------");
+		String s01 = String.valueOf(12.99);
+		System.out.println(s01);
+		System.out.println("-----------------------------------");
+		char ch = str00.charAt(4);
+		System.out.println(ch);
+		
+		char[] value = {'a','b','c','d','e'};
+		String str01 = new String(value);
+		
+		String str02 = new String(value,1,2);
+		System.out.println(str02);
+        System.out.println(str01);		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
 	}
 
 }
