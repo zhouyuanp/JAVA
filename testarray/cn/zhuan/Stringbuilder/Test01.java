@@ -2,7 +2,7 @@ package cn.zhuan.Stringbuilder;
 /**
  *String:不可变字符序列 
   *  测试可变字符序列 .StringBuilder(线程不安全,效率高),StringBuffer(线程安全,效率低)
- * @author Administrator
+ * @author 鹏
  *
  */
 
@@ -17,6 +17,8 @@ public abstract class Test01 {
 		sb2.append("efg");//累加到 sb2的数组后面  //可变字符序列
 		sb2.append(true);//相当于字符串相连
 		sb2.append(321).append("哇哈哈哈");//通过return this 实现方法链
+		sb2.length();
+		System.out.println(sb2.length());
 		System.out.println(sb2);
 		
 		System.out.println("--------------");

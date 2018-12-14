@@ -15,9 +15,13 @@ public class Test02 {
 	    //测试 reverse 方法  数组翻转
 	    sb.reverse();
 	    System.out.println(sb);
+	    sb.insert(0, 9);
+	    System.out.println(sb);
 	    
 	    
-	    StringBuffer sb2 = new StringBuffer();
+	    StringBuffer sb2 = new StringBuffer("112233445566778899");
+	    sb2.insert(0, 9);
+	    System.out.println(sb2);
 	    
 	    
 	    
