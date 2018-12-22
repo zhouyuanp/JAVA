@@ -1,6 +1,8 @@
 package cn.zhuan.array2;
+
 /**
- *  封装了矩阵的常用算法
+ * 封装了矩阵的常用算法
+ * 
  * @author Administrator
  *
  */
@@ -21,8 +23,10 @@ public class Matrix {
 			System.out.println();
 		}
 	}
+
 	/**
-	 *  打印矩阵加法
+	 * 打印矩阵加法
+	 * 
 	 * @param a
 	 * @param b
 	 * @return
@@ -41,15 +45,9 @@ public class Matrix {
 
 	public static void main(String[] args) {
 		int[][] a = { // 静态初始化
-				{ 1, 3, 4 }, 
-				{ 2, 4, 5 },
-				{ 2, 4, 5 },
-				};
+				{ 1, 3, 4 }, { 2, 4, 5 }, { 2, 4, 5 }, };
 		int[][] b = { // 静态初始化
-				{ 3, 4, 4 }, 
-				{ 5, 6, 7 },
-				{ 5, 6, 6 },
-				};
+				{ 3, 4, 4 }, { 5, 6, 7 }, { 5, 6, 6 }, };
 //		int[][] c = new int[2][2];
 //		for (int i = 0; i < c.length; i++) {
 //			for (int j = 0; j < c.length; j++) {
@@ -65,9 +63,9 @@ public class Matrix {
 //			}
 //			System.out.println();
 //		}
-		//调用add 打印三阶矩阵
-		
-		int [][] c = add(a,b);
+		// 调用add 打印三阶矩阵
+
+		int[][] c = add(a, b);
 		print(c);
 
 	}
